@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html land="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta>
+    <title></title>
+</head>
+
+<body>
+    <div class="root" style="width:800px; margin: 0 auto;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="792" height="672" version="1" viewBox="0 0 650 400">
+
+        <path id="five" transform="rotate(-180 300,200.00001525878903) " stroke="#000" d="m124.500003,159.632042l175.499796,-130.632042l175.500209,130.632042l-67.034811,211.367976l-216.930183,0l-67.035011,-211.367976z" stroke-width="1.5" fill="#fff"/>
+
+              <g id="startButton">
+                    <rect  x="550" y="350" rx="3" ry="3" width="40" height="20" fill="blue" stroke="blue" />
+                     <text  x="551" y="365" font-size="16" font-weight="bold" font-family="Arial"
+                        fill="white" >Start</text>
+              </g>
+
+             <text  x="505" y="345" font-size="16"  font-family="Arial"
+                    fill="blue" >click on the button</text>
+
+                <g style="stroke: red; stroke-width: 2px; stroke-opacity:0;">
+                  <line id="D5" y1="371" x1="300" y2="29" x2="192" />
+                  <line id="D4" y1="29" x1="192" y2="240" x2="475" />
+                  <line id="D3" y1="240" x1="475" y2="240" x2="125" />
+                  <line id="D2" y1="240" x1="125" y2="29" x2="408" />
+                  <line id="D1" y1="29" x1="408" y2="371" x2="300" />
+               </g>
+
+            <g> <!-- block all-animation -->
+
+               <g id="star"> <!-- four consecutive animation  -->
+                     <animate id="A1" attributeType="xml" attributeName="stroke-opacity"
+                        xlink:href="#D5"
+                        from="0" to="1"
+                         begin="startButton.click" dur="0.75s"
+                        repeatCount="1"
+                        fill="freeze"
+                        restart="whenNotActive"
+                     />
+
+                     <animate id="A2" attributeType="xml" attributeName="stroke-opacity"
+                        xlink:href="#D4"
+                        from="0" to="1"
+                         begin="startButton.click+0.75s" dur="0.75s"
+                        repeatCount="1"
+                        fill="freeze"
+                     />
+                         <animate id="A3" attributeType="xml" attributeName="stroke-opacity"
+                            xlink:href="#D3"
+                            from="0" to="1"
+                             begin="startButton.click+1.5s" dur="0.75s"
+                            repeatCount="1"
+                            fill="freeze"
+                         />
+                     <animate id="A4" attributeType="xml" attributeName="stroke-opacity"
+                        xlink:href="#D2"
+                        from="0" to="1"
+                         begin="startButton.click+2.25s" dur="0.75s"
+                        repeatCount="1"
+                        fill="freeze"
+                     />
+                     <animate id="A5" attributeType="xml" attributeName="stroke-opacity"
+                        xlink:href="#D1"
+                        from="0" to="1"
+                         begin="startButton.click+3s" dur="0.75s"
+                        repeatCount="1"
+                        fill="freeze"
+                     />
+
+      </svg>
+    </div>
+</body>
+
+</html>
