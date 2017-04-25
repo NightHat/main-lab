@@ -1,6 +1,6 @@
 # Лабораторные работы по ООЕИ
 
-Лабораторная 1. Плакат на тему сайта Математика.укр. (<a href="http://NightHat.github.io/OOEI/Lab1/index.html" target="_blank">клик</a>)
+Лабораторная 1. Плакат на тему сайта Математика.укр. (<a href="http://NightHat.github.io/Lab1/index.html" target="_blank">клик</a>)
 
 Лабораторная 2. Верстка письма на тему сайта Математика.укр. (<a href="http://NightHat.github.io/OOEI/Lab2/letter.html" target="_blank">клик</a>)
 
