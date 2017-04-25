@@ -2,7 +2,7 @@
 
 Лабораторная 1. Плакат на тему сайта Математика.укр. (<a href="http://NightHat.github.io/lab-1/index.html" target="_blank">клик</a>)
 
-Лабораторная 2. Верстка письма на тему сайта Математика.укр. (<a href="http://NightHat.github.io/Lab-2/letter2.html" target="_blank">клик</a>)
+Лабораторная 2. Верстка письма на тему сайта Математика.укр. (<a href="http://NightHat.github.io/lab-2/letter2.html" target="_blank">клик</a>)
 
 Лабораторная 3. Форматирование текста с применением LaTeX и Texmaker.
 
