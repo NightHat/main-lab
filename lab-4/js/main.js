@@ -28,7 +28,7 @@ xhr.onload = function() {
         var recipteIngredients = document.createElement('ul');
         recipteIngredients.classList.add('recipte__ingredients');
 
-        for (var k = 0; k < ingArr.length; k++) {
+        for (var k = 0; k < ingsArr.length; k++) {
             var recipteIng = document.createElement('li');
             recipteIng.classList.add('recipte__ing');
             var ingRole = ingsArr[k].getAttribute('role');
