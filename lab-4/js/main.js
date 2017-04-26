@@ -11,7 +11,7 @@ xhr.onload = function() {
     var rootElem = document.getElementById('root');
     var recipteArr = responseDoc.getElementsByTagName('recipte');
     for (var i = 0; i < recipteArr.length; i++) {
-        var bandContainer = document.createElement('div');
+        var recipteContainer = document.createElement('div');
         recipteContainer.classList.add('recipte');
 
         var recipteName = document.createElement('h3');
