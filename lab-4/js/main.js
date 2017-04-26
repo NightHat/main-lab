@@ -10,7 +10,7 @@ xhr.onload = function() {
     var responseDoc = this.responseXML;
     var rootElem = document.getElementById('root');
     var recipteArr = responseDoc.getElementsByTagName('recipte');
-    for (var i = 0; i < reciptesArr.length; i++) {
+    for (var i = 0; i < recipteArr.length; i++) {
         var bandContainer = document.createElement('div');
         recipteContainer.classList.add('recipte');
 
