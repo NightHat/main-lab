@@ -19,7 +19,7 @@ xhr.onload = function() {
         var name = recipteArr[i].getAttribute('name');
         recipteName.innerHTML = name
 
-        var IngsArr = recipteArr[i].getElementsByTagName('ing');
+        var ingsArr = recipteArr[i].getElementsByTagName('ing');
 
         var recipteIngredientsHeader = document.createElement('h5');
         recipteIngredientsHeader.classList.add('recipte__ingredients-header');
