@@ -1,0 +1,21 @@
+table { 
+    width: 100%; 
+    border: 2px double black; 
+    border-collapse: collapse; 
+   }
+th { 
+    text-align: left; 
+    background: #fff; 
+    padding: 6px; 
+    border: 1px solid black;
+    text-align:  center; 
+   }
+td { 
+    padding: 3px; 
+    border: 1px solid Blue; 
+    text-align:  center;
+   }
+p{
+  color:red;
+  text-align:  center;
+}
