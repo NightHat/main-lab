@@ -4,7 +4,7 @@ xmlhttp.onreadystatechange = function () {
         GetNeededData(this);
     }
 };
-xmlhttp.open("GET", "http://api.worldweatheronline.com/premium/v1/weather.ashx?key=293fde5989a044348ad180530172204&q=Kremenchuk&format=xml&num_of_days=3", true);
+xmlhttp.open("GET", "http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=570&count=3&maxlength=500&format=xml");
 xmlhttp.send();
 
 function GetNeededData(xml) {
