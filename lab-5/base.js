@@ -13,12 +13,12 @@ function GetNeededData(xml) {
 
     var items = w.getElementsByTagName("td");
     
-    var maxtempC = xmlDoc.getElementsByTagName("maxtempC");
-    items[0].innerHTML = maxtempC[1].textContent;
+    var title = xmlDoc.getElementsByTagName("title");
+    items[0].innerHTML = title[1].textContent;
     
-    var mintempC = xmlDoc.getElementsByTagName("mintempC");
-    items[1].innerHTML = mintempC[1].textContent;
+    var url = xmlDoc.getElementsByTagName("url");
+    items[1].innerHTML = url[1].textContent;
 
-    var windspeedKmph = xmlDoc.getElementsByTagName("windspeedKmph");
-    items[2].innerHTML = windspeedKmph[1].textContent;
+    var contents = xmlDoc.getElementsByTagName("contents");
+    items[2].innerHTML = contents[1].textContent;
 }
