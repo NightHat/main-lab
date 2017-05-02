@@ -4,7 +4,7 @@ xmlhttp.onreadystatechange = function () {
         GetNeededData(this);
     }
 };
-xmlhttp.open("GET", "http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=570&count=3&maxlength=500&format=xml");
+xmlhttp.open("GET" "http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=570&count=3&maxlength=500&format=xml", true);
 xmlhttp.send();
 
 function GetNeededData(xml) {
