@@ -4,7 +4,7 @@ xmlhttp.onreadystatechange = function () {
         GetNeededData(this);
     }
 };
-xmlhttp.open("GET" "https://api.musixmatch.com/ws/1.1/artist.get?format=xml&callback=callback&artist_id=13895270&apikey=bc88031de91241ce35ce00054f3e73a2", true);
+xmlhttp.open("GET", "https://api.musixmatch.com/ws/1.1/artist.get?format=xml&callback=callback&artist_id=13895270&apikey=bc88031de91241ce35ce00054f3e73a2", true);
 xmlhttp.send();
 
 function GetNeededData(xml) {
