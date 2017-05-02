@@ -4,7 +4,7 @@ xmlhttp.onreadystatechange = function () {
         GetNeededData(this);
     }
 };
-xmlhttp.open("GET" "http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=570&count=3&maxlength=500&format=xml", true);
+xmlhttp.open("GET" "https://api.musixmatch.com/ws/1.1/artist.get?format=xml&callback=callback&artist_id=13895270&apikey=bc88031de91241ce35ce00054f3e73a2", true);
 xmlhttp.send();
 
 function GetNeededData(xml) {
@@ -13,12 +13,15 @@ function GetNeededData(xml) {
 
     var items = w.getElementsByTagName("td");
     
-    var title = xmlDoc.getElementsByTagName("title");
-    items[0].innerHTML = title[1].textContent;
+    var artist_name = xmlDoc.getElementsByTagName("artist_name");
+    items[0].innerHTML = artist_name[1].textContent;
     
-    var url = xmlDoc.getElementsByTagName("url");
-    items[1].innerHTML = url[1].textContent;
+    var artist_country = xmlDoc.getElementsByTagName("artist_country");
+    items[1].innerHTML = artist_country[1].textContent;
 
-    var contents = xmlDoc.getElementsByTagName("contents");
-    items[2].innerHTML = contents[1].textContent;
+    var artist_rating = xmlDoc.getElementsByTagName("artist_rating");
+    items[2].innerHTML = artist_rating[1].textContent;
+    
+    var music_genre_name = xmlDoc.getElementsByTagName("music_genre_name");
+    items[3].innerHTML = music_genre_name[1].textContent;
 }
